@@ -2,3 +2,7 @@
 pakoco-lib.iml
 .idea/
 out/
+
+# For now, main is used for testing, so, it's modified on every commit
+# but stills without anything inside.
+src/Main.java
