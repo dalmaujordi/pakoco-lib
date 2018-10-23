@@ -31,7 +31,7 @@ public final class LogicalOperators {
     /**
      * Returns the (a||b)&&(!(a&&b)) logic operation (xor). */
     public static boolean xor(boolean a, boolean b) {
-        return (a || b)&&(!(a&&b));
+        return (a || b)&&(!(a && b));
     }
 
     /**
